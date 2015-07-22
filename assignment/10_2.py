@@ -25,3 +25,4 @@ t.sort()
 #print t
 for key, val in t:
 	print key, val
+
