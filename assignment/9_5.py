@@ -5,6 +5,7 @@ fh = open(fname)
 d =dict()
 for line in fh:
     line = line.rstrip()
+
     if not line.startswith('From '): continue
     words = line.split()
     email = words[1]

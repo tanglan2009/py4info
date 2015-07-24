@@ -6,7 +6,7 @@ for line in fh:
 	line = line.rstrip() 
 	# or here if line == '': continue
 	words = line.split()
-	
+	print words
 	if len(words) == 0: continue   # or words ==[]:
 	if words[0] != 'From': continue
 	print words[1]
