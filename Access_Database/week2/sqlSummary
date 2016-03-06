@@ -1,0 +1,13 @@
+SQL Summary
+
+INSERT INTO Users(name, email) VALUES ('Kristin', 'kf@umich.edu')
+
+DELET FROM Users WHERE email = 'fred@umich.edu'
+
+UPDTAE Users SET name = "Charles" WHERE email = 'csv@umich.edu'
+
+SELECT * FROM Users
+
+SELECT * FROM Users WHERE email = 'csv@umich.edu'
+
+SELECT * FROM Users ORDER BY email
